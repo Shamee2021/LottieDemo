@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         binding.btn.setOnClickListener {
             it.isVisible = false
             binding.ivContent.playAnimation()
-            binding.ivContent.bringToFront()
         }
 
         binding.ivContent.addAnimatorListener(object :Animator.AnimatorListener{
